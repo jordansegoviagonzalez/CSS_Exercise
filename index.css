@@ -1,0 +1,75 @@
+.nav-link {
+    color: orange;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color:blanchedalmond;
+}
+/* Margin: adds vertical spacing and centers the <main> element
+   by applying top/bottom margins and auto left/right margins */
+main {
+    max-width: 600px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Space above and below sections:
+ adds margin-top and margin-bottom for vertical spacing;
+   Dotted orange border: adds a visible dotted frame to highlight sections */
+
+section {
+    margin-top: 24px;
+    margin-bottom:24px;
+    border: 3px dotted orange;
+    padding: 16px 16px 16px;
+    
+}
+/* shorthand version:
+  section {
+    margin: 24px 0;         - vertical spacing (top & bottom)
+    border: 3px dotted orange; - dotted orange border for emphasis
+    padding: 16px;          - space inside the section
+  }
+*/
+
+/* Made #title big and bold:
+ select id "title" to set font-size 40px and font-weight 800 for strong emphasis */
+
+#tittle {
+    font-size: 40px;
+    font-weight: 800;
+}
+
+/* Make list items appear side by side: 
+set display: inline; 
+on elements with class "d-inline" so <li>s don't stack vertically  */
+.d-inline {
+  display: inline;
+}
+
+nav > ul {
+  list-style: none;
+
+}
+
+/* Dark background, light text:
+Set background-color to #222222 and text color to #EEEEEE for better readability and modern design
+*/
+body {
+  background-color: #222222;
+  color: #EEEEEE
+}
+
+/* Resize and center the avatar image:
+Set width to 100px, vertical margin to 32px, and auto horizontal margins to center the image in layout
+*/
+
+#avatar {
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
